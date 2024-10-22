@@ -22,10 +22,18 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DWi-hV-2gG">
+                                <rect key="frame" x="120" y="653" width="154" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Нажми на меня!"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="DWi-hV-2gG" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Cgp-Sm-1CC"/>
+                            <constraint firstItem="DWi-hV-2gG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="J4y-iQ-yH8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="DWi-hV-2gG" secondAttribute="bottom" constant="130" id="N5U-3M-fZx"/>
                             <constraint firstItem="snh-3T-A8G" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="iX4-gL-mms"/>
                             <constraint firstItem="snh-3T-A8G" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="t1F-tb-DFT"/>
                         </constraints>
